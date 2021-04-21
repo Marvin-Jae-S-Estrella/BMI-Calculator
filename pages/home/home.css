@@ -2,5 +2,14 @@ ion-content {
 
 background: linear-gradient(to bottom, #EF629F, #EECDA3); 
 
-h2
+
+}
+h2 {
+  text-align:  justify;
+  font-size:  xx-large;
+}
+
+p {
+  text-align:  justify;
+  font-size:  larger;
 }
