@@ -23,7 +23,7 @@
     <ion-input type="number" [(ngModel)]="weight"></ion-input>
   </ion-item>
 
-  <button ion-button color="secondary" (click)="calculateBMI()">CALCULATE</button>
+  <button ion-button (click)="calculateBMI()">CALCULATE</button>
 
   <ion-item *ngIf="bmi">
     <h2>BMI: {{bmi}} ({{bmimessage}}) </h2>
